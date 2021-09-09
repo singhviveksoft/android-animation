@@ -4,32 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layoutDescription="@xml/activity_main3_scene"
-    tools:context=".MotionLayoutActivity1">
+    android:id="@+id/ml"
+    app:layoutDescription="@xml/activity_splash_screen_motion_layout_scene"
+    tools:context=".SplashScreenMotionLayoutActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="200dip"
-        android:layout_height="200dip"
-        android:scaleType="centerCrop"
+        android:id="@+id/sp_bg_img"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29000002"
-        app:srcCompat="@drawable/mickey_mouse" />
+        app:srcCompat="@drawable/sp_bg" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:text="Micky Android Developer"
-        android:textSize="24sp"
+    <ImageView
+        android:id="@+id/start_img"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
 </androidx.constraintlayout.motion.widget.MotionLayout>

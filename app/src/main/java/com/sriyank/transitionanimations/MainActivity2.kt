@@ -23,7 +23,7 @@ class MainActivity2 : AppCompatActivity() {
 
         scene1.enter()
         currentScene=scene1
-        transition=androidx.transition.TransitionInflater.from(this).inflateTransition(R.transition.example_2)
+        transition=androidx.transition.TransitionInflater.from(this).inflateTransition(R.transition.example_1)
     }
 
     fun onClick(view: View) {    // will be executed on click of root layout of activity_main.xml
