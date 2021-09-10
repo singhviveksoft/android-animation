@@ -9,7 +9,7 @@ import androidx.transition.Scene
 import androidx.transition.Transition
 import kotlinx.android.synthetic.main.activity_main2.*
 
-class MainActivity2 : AppCompatActivity() {
+class TransitionFromXmlActivity : AppCompatActivity() {
     private lateinit var scene1:Scene
     private lateinit var scene2:Scene
     private lateinit var currentScene:Scene

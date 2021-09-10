@@ -7,7 +7,7 @@ import android.view.View
 import android.view.animation.LinearInterpolator
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class TransitionFromActivity : AppCompatActivity() {
 
 	private lateinit var scene1: Scene
 	private lateinit var scene2: Scene
